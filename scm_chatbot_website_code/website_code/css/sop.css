@@ -1,0 +1,84 @@
+/* SOP Styles for SCM ChatBot Demo */
+.sop-container {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #2eb82e;
+}
+
+.sop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+}
+
+.sop-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1a2639;
+}
+
+.sop-id {
+    background-color: #e9ecef;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: #495057;
+}
+
+.sop-step {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 2px solid #dee2e6;
+}
+
+.sop-step-number {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #2eb82e;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.sop-step-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sop-step-description {
+    margin-left: 34px;
+    font-size: 0.9rem;
+}
+
+.sop-note {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+.sop-approval {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #dee2e6;
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.chart-container {
+    margin: 20px 0;
+    height: 300px;
+}
